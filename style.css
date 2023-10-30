@@ -1,0 +1,68 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1919;
+}
+.titulo{
+    color:white;
+}
+* {
+    border: none;
+}
+
+.card {
+    background-color: #353232;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px; /* Aumentei o padding para aumentar a altura do card */
+    width: 80%; 
+    max-width: 400px;
+    text-align: center;
+    border-radius: 11px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 17px;
+    padding: 9px;
+    border-radius: 11px;
+}
+
+/* Estilize o link "Esqueceu sua senha?" */
+a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: -10px;
+}
+
+button {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:auto;
+    margin-top: 40px;
+    display: block;
+}
+
+button:hover {
+    background-color: #999;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
+.Esqueceu{
+    padding-inline-end: 10px;
+}
